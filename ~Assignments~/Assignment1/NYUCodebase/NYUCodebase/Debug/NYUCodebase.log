@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\assignment1\nyucodebase\nyucodebase\main.cpp(53): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\assignment1\nyucodebase\nyucodebase\main.cpp(55): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\assignment1\nyucodebase\nyucodebase\main.cpp(56): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\assignment1\nyucodebase\nyucodebase\main.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\assignment1\nyucodebase\nyucodebase\main.cpp(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  NYUCodebase.vcxproj -> C:\Users\Owner\Google Drive\NYU Poly\Year 4\Fall\Game Programming\CS3113-KVM237\Assignment1\NYUCodebase\Debug\NYUCodebase.exe

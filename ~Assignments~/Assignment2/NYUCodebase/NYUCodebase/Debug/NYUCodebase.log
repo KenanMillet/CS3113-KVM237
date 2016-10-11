@@ -1,2 +1,30 @@
-﻿  Ball.cpp
+﻿  Wall.cpp
+  Tickable.cpp
+  Tick.cpp
+  Tactile.cpp
+  ShaderProgram.cpp
+  Model.cpp
+  Matrix.cpp
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\matrix.cpp(213): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\matrix.cpp(214): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\main.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\main.cpp(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\main.cpp(92): warning C4305: 'argument' : truncation from 'double' to 'float'
+  Game.cpp
+  EventHandler.cpp
+  EventDependent.cpp
+  Renderable.cpp
+  Render.cpp
+  Paddle.cpp
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\paddle.cpp(7): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\paddle.cpp(24): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\paddle.cpp(36): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\owner\google drive\nyu poly\year 4\fall\game programming\cs3113-kvm237\~assignments~\assignment2\nyucodebase\nyucodebase\paddle.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+  Goal.cpp
+  Entity.cpp
+  CollisionHandler.cpp
+  Ball.cpp
+  Generating Code...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
   NYUCodebase.vcxproj -> C:\Users\Owner\Google Drive\NYU Poly\Year 4\Fall\Game Programming\CS3113-KVM237\~Assignments~\Assignment2\NYUCodebase\Debug\NYUCodebase.exe

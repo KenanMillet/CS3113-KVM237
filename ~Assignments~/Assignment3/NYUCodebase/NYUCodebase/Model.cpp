@@ -21,12 +21,27 @@ Model::Model(const char* texture, std::initializer_list<float> vertexCoords, flo
 	this->textureCoords() = textureCoords;
 }
 
-Model::Model(const char* texture, SpriteSheet& sheet, float sizeX, float sizeY, Matrix& matrix, Render* renderer)
+Model::Model(const char* texture, SpriteSheet* sheet, float sizeX, float sizeY, Matrix& matrix, Render* renderer)
 	: Renderable(renderer)
 {
 	if(sizeY == 0.0f) sizeY = sizeX;
-	auto uvb = sheet.find(texture);
-	textureID() = sheet.ID;
+	auto uvb = sheet->find(texture);
+	textureID() = sheet->ID;
+	transMatrix() = matrix;
+	float a = (uvb->u2 - uvb->u) / (uvb->v2 - uvb->v);
+	this->vertexCoords() = { -0.5f * sizeX * a, -0.5f * sizeY, 0.5f * sizeX * a, 0.5f * sizeY, -0.5f * sizeX * a, 0.5f * sizeY, 0.5f * sizeX * a, 0.5f * sizeY, -0.5f * sizeX * a, -0.5f * sizeY, 0.5f * sizeX * a, -0.5f * sizeY };
+	this->textureCoords() = { uvb->u, uvb->v2, uvb->u2, uvb->v, uvb->u, uvb->v, uvb->u2, uvb->v, uvb->u, uvb->v2, uvb->u2, uvb->v2 };
+	w = sizeX * a;
+	h = sizeY;
+}
+
+Model::Model(const char* texture, const char* sheet, const char* atlas, float sizeX, float sizeY, Matrix& matrix, Render* renderer)
+	: Renderable(renderer)
+{
+	SpriteSheet* ss = getSpriteSheet(sheet, atlas);
+	if(sizeY == 0.0f) sizeY = sizeX;
+	auto uvb = ss->find(texture);
+	textureID() = ss->ID;
 	transMatrix() = matrix;
 	float a = (uvb->u2 - uvb->u) / (uvb->v2 - uvb->v);
 	this->vertexCoords() = { -0.5f * sizeX * a, -0.5f * sizeY, 0.5f * sizeX * a, 0.5f * sizeY, -0.5f * sizeX * a, 0.5f * sizeY, 0.5f * sizeX * a, 0.5f * sizeY, -0.5f * sizeX * a, -0.5f * sizeY, 0.5f * sizeX * a, -0.5f * sizeY };

@@ -4,7 +4,7 @@
 #include "Enemy.h"
 
 Ship::Ship()
-	:	TactileEntity::Model("playerShip3_red.png", SpriteSheet("sheet.png", "sheet.xml"), 0.5f),
+	:	TactileEntity::Model("playerShip3_red.png", getSpriteSheet("sheet.png", "sheet.xml"), 0.5f),
 		TactileEntity::Tactile(width(), height()),
 		EventDependent({ SDL_KEYDOWN, SDL_KEYUP }),
 		dir(0.0f), spd(2.0f), elapsed(0.0f), bullet(new Bullet(this, 1.0f)), lives(3)

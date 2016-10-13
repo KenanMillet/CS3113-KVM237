@@ -23,6 +23,8 @@ private:
 	float uv[2][2];
 };
 
+extern SpriteSheet* getSpriteSheet(const char*, const char*);
+
 class SpriteSheet
 {
 public:

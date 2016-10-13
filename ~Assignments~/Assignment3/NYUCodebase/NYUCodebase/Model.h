@@ -10,7 +10,8 @@ class Model : virtual public Renderable
 public:
 	Model(const char* = "", Matrix& = Matrix(), Render* = Renderable::defaultRender);
 	Model(const char*, std::initializer_list<float>, float, float, std::initializer_list<float>, Matrix& = Matrix(), Render* = Renderable::defaultRender);
-	Model(const char*, SpriteSheet&, float = 1.0f, float = 0.0f, Matrix& = Matrix(), Render* = Renderable::defaultRender);
+	Model(const char*, SpriteSheet*, float = 1.0f, float = 0.0f, Matrix& = Matrix(), Render* = Renderable::defaultRender);
+	Model(const char*, const char*, const char*, float = 1.0f, float = 0.0f, Matrix& = Matrix(), Render* = Renderable::defaultRender);
 	virtual ~Model() = default;
 
 	virtual void prerender() final;

@@ -3,7 +3,7 @@
 #include "Bullet.h"
 
 Enemy::Enemy()
-	:	TactileEntity::Model("enemyBlue1.png", SpriteSheet("sheet.png", "sheet.xml"), 0.3f),
+	:	TactileEntity::Model("enemyBlue1.png", getSpriteSheet("sheet.png", "sheet.xml"), 0.3f),
 		TactileEntity::Tactile(width(), height()),
 		elapsed(0.0f), lastFire(0.0f), destroyed(false), bullet(new Bullet(this, -1.0f))
 {

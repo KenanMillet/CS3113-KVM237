@@ -118,3 +118,11 @@ SpriteSheet::uvBounds::uvBounds(float u, float v, float u2, float v2)
 	: u(u), v(v), u2(u2), v2(v2)
 {
 }
+
+SpriteSheet* getSpriteSheet(const char* sheet, const char* atlas)
+{
+	static unordered_map<string, SpriteSheet*> sheets;
+	SpriteSheet** sheetHandle = &(sheets[string(sheet).append(atlas)]);
+	if(*sheetHandle == nullptr) *sheetHandle = new SpriteSheet(sheet, atlas);
+	return *sheetHandle;
+}

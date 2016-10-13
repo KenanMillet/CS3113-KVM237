@@ -4,7 +4,7 @@
 #include "Enemy.h"
 
 Bullet::Bullet(TactileEntity* spawner, float dir)
-	:	TactileEntity::Model(((dir > 0) ? "laserRed07.png" : "laserBlue07.png"), SpriteSheet("sheet.png", "sheet.xml"), 0.25f),
+	:	TactileEntity::Model(((dir > 0) ? "laserRed07.png" : "laserBlue07.png"), getSpriteSheet("sheet.png", "sheet.xml"), 0.25f),
 		TactileEntity::Tactile(width(), height()),
 		spawner(spawner), dir(dir), spd(6.0f), hidden(true)
 {

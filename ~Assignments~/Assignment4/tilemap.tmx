@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="70" tileheight="70" nextobjectid="14">
+ <tileset firstgid="1" name="Tech" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="../../assets/graphics/Platformer assets (1330 assets)/Request pack (100 assets)/Spritesheet/sheet.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="99" name="Dynamics" tilewidth="75" tileheight="146" tilecount="19" columns="0">
+  <tile id="0">
+   <image width="66" height="92" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Player/p1_front.png"/>
+  </tile>
+  <tile id="1">
+   <image width="51" height="51" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/blockerBody.png"/>
+  </tile>
+  <tile id="2">
+   <image width="51" height="51" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/blockerMad.png"/>
+  </tile>
+  <tile id="3">
+   <image width="51" height="51" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/blockerSad.png"/>
+  </tile>
+  <tile id="4">
+   <image width="66" height="42" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/fishDead.png"/>
+  </tile>
+  <tile id="5">
+   <image width="66" height="42" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/fishSwim1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="62" height="43" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/fishSwim2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="59" height="33" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/flyDead.png"/>
+  </tile>
+  <tile id="8">
+   <image width="72" height="36" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/flyFly1.png"/>
+  </tile>
+  <tile id="9">
+   <image width="75" height="31" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/flyFly2.png"/>
+  </tile>
+  <tile id="10">
+   <image width="48" height="146" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/pokerMad.png"/>
+  </tile>
+  <tile id="11">
+   <image width="48" height="146" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/pokerSad.png"/>
+  </tile>
+  <tile id="12">
+   <image width="59" height="12" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/slimeDead.png"/>
+  </tile>
+  <tile id="13">
+   <image width="50" height="28" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/slimeWalk1.png"/>
+  </tile>
+  <tile id="14">
+   <image width="51" height="26" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/slimeWalk2.png"/>
+  </tile>
+  <tile id="15">
+   <image width="44" height="30" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/snailShell.png"/>
+  </tile>
+  <tile id="16">
+   <image width="44" height="30" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/snailShell_upsidedown.png"/>
+  </tile>
+  <tile id="17">
+   <image width="54" height="31" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/snailWalk1.png"/>
+  </tile>
+  <tile id="18">
+   <image width="57" height="31" source="../../assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/snailWalk2.png"/>
+  </tile>
+ </tileset>
+ <layer name="Level" width="20" height="10">
+  <data encoding="csv">
+17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,
+17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,17,
+17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,
+17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,
+17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,
+17,0,0,0,0,0,0,0,17,17,0,17,0,17,17,0,0,17,17,17,
+17,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,17,
+17,0,0,0,0,17,17,0,0,0,0,0,0,0,0,0,0,0,0,17,
+17,0,0,0,17,17,17,17,0,0,0,0,0,0,0,0,0,0,17,17,
+17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17
+</data>
+ </layer>
+ <objectgroup name="Entities">
+  <object id="11" name="Player" type="Player" gid="99" x="70" y="630" width="66" height="92"/>
+  <object id="13" name="Slimy" type="Slimy" gid="112" x="987" y="628" width="50" height="28"/>
+ </objectgroup>
+</map>

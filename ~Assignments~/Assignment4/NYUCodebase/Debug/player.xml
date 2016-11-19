@@ -1,0 +1,18 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="p1_duck.png" x="72" y="377" width="69" height="71"/>
+	<SubTexture name="p1_front.png" x="142" y="95" width="66" height="92"/>
+	<SubTexture name="p1_hurt.png" x="72" y="283" width="69" height="92"/>
+	<SubTexture name="p1_jump.png" x="73" y="94" width="67" height="94"/>
+	<SubTexture name="p1_stand.png" x="210" y="189" width="66" height="92"/>
+	<SubTexture name="p1_walk01.png" x="143" y="377" width="66" height="93"/>
+	<SubTexture name="p1_walk02.png" x="142" y="189" width="66" height="92"/>
+	<SubTexture name="p1_walk03.png" x="0" y="94" width="71" height="92"/>
+	<SubTexture name="p1_walk04.png" x="0" y="0" width="72" height="92"/>
+	<SubTexture name="p1_walk05.png" x="0" y="188" width="71" height="93"/>
+	<SubTexture name="p1_walk06.png" x="0" y="283" width="70" height="92"/>
+	<SubTexture name="p1_walk07.png" x="0" y="377" width="70" height="93"/>
+	<SubTexture name="p1_walk08.png" x="74" y="0" width="66" height="92"/>
+	<SubTexture name="p1_walk09.png" x="210" y="95" width="66" height="92"/>
+	<SubTexture name="p1_walk10.png" x="142" y="0" width="67" height="93"/>
+	<SubTexture name="p1_walk11.png" x="143" y="283" width="66" height="92"/>
+</TextureAtlas>

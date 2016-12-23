@@ -1,0 +1,66 @@
+﻿  Block.cpp
+  Camera.cpp
+  CollisionHandler.cpp
+  Entity.cpp
+  FlareTokenizer.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,std::string&,float&,float&,int>(_Objty *,std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=FlareTokenizer::EntityData
+  ,            _Objty=FlareTokenizer::EntityData
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,std::string&,float&,float&,int>(_Objty *,std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=FlareTokenizer::EntityData
+  ,            _Objty=FlareTokenizer::EntityData
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::string&,float&,float&,int>(std::allocator<_Ty> &,_Objty *,std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<FlareTokenizer::EntityData>
+  ,            _Ty=FlareTokenizer::EntityData
+  ,            _Objty=FlareTokenizer::EntityData
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::string&,float&,float&,int>(std::allocator<_Ty> &,_Objty *,std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<FlareTokenizer::EntityData>
+  ,            _Ty=FlareTokenizer::EntityData
+  ,            _Objty=FlareTokenizer::EntityData
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(899) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<FlareTokenizer::EntityData,std::string&,float&,float&,int>(_Ty *,std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=FlareTokenizer::EntityData
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(899) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<FlareTokenizer::EntityData,std::string&,float&,float&,int>(_Ty *,std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=FlareTokenizer::EntityData
+          ]
+          FlareTokenizer.cpp(164) : see reference to function template instantiation 'void std::vector<FlareTokenizer::EntityData,std::allocator<_Ty>>::emplace_back<std::string&,float&,float&,int>(std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=FlareTokenizer::EntityData
+          ]
+          FlareTokenizer.cpp(164) : see reference to function template instantiation 'void std::vector<FlareTokenizer::EntityData,std::allocator<_Ty>>::emplace_back<std::string&,float&,float&,int>(std::string &,float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=FlareTokenizer::EntityData
+          ]
+  Level.cpp
+  Level1.cpp
+  Level2.cpp
+  Level3.cpp
+  Logger.cpp
+  MainGame.cpp
+MainGame.cpp(14): fatal error C1001: An internal error has occurred in the compiler.
+  (compiler file 'msc1.cpp', line 1325)
+   To work around this problem, try simplifying or changing the program near the locations listed above.
+  Please choose the Technical Support command on the Visual C++ 
+   Help menu, or open the Technical Support help file for more information
+  INTERNAL COMPILER ERROR in 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information

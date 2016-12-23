@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{b53ee4ab-d530-450e-a30f-3ce154fe768b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{0737481d-cd66-480f-87b9-9d9623c36064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{1e5dfae4-bf1b-4dce-8dec-10837162c04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{c019bc3f-0771-459d-b171-aa51f9da1a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{f4a628f1-8c88-472b-b1d3-09ea41dae677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Handlers">
+      <UniqueIdentifier>{cefc5458-ba21-41da-9f67-fe2746f5c488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Handles">
+      <UniqueIdentifier>{4f2053ee-e720-4a26-90ed-7b708b433d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Handlers">
+      <UniqueIdentifier>{3a96e62c-b48c-4117-9bab-33b21252c68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Handles">
+      <UniqueIdentifier>{5f70b417-405c-4f23-abde-d11d5220a237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{84abb1db-2aec-405c-a4b6-2e29c195c764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{e4d4d043-6c76-4561-9b52-5401eb068b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{dd6c19c9-2566-445c-88f0-f0490473375a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{c274ef06-1414-4648-b6e5-7637cb7a541d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Entities">
+      <UniqueIdentifier>{9d06b1b6-31fc-4e71-b49d-535cef3bedff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Levels">
+      <UniqueIdentifier>{bb8799a7-2b3b-4724-a6dd-5e87ac3c1ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Entities">
+      <UniqueIdentifier>{2e689729-528c-4b14-95df-c31c69426d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Levels">
+      <UniqueIdentifier>{e8c086fd-9357-4439-8f4a-adc7ad234385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entities">
+      <UniqueIdentifier>{fa70b126-5430-4a38-a2c4-ff22aa88c17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Entities">
+      <UniqueIdentifier>{936d7203-645d-4177-a998-e02a99cc5dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Tokenizers">
+      <UniqueIdentifier>{96d8bbde-a08d-4397-9ea7-cf37456c73bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Maps">
+      <UniqueIdentifier>{233c9493-5558-49b7-be8a-54d8da1411be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{77e11197-881d-4a8e-8c00-84a715a5e48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility\Tokenizers">
+      <UniqueIdentifier>{7c1cbf78-78fd-4420-a96b-8f6a5930071f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{ef3aca4f-b8a3-419f-8ae7-17684389dc56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDependent.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tactile.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tickable.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelHandler.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewHandler.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Core\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FlareTokenizer.cpp">
+      <Filter>Source Files\Utility\Tokenizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="TactileEntity.cpp">
+      <Filter>Source Files\Core\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Source Files\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackingCamera.cpp">
+      <Filter>Source Files\Core\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Core\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticker.cpp">
+      <Filter>Source Files\Core\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Core\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Game\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDependent.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tactile.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tickable.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHandler.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEntities.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewHandler.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Core\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FlareTokenizer.h">
+      <Filter>Header Files\Utility\Tokenizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TactileEntity.h">
+      <Filter>Header Files\Core\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackingCamera.h">
+      <Filter>Header Files\Core\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Header Files\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Core\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticker.h">
+      <Filter>Header Files\Core\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Core\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Game\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="fragment_textured.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="vertex.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="vertex_textured.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sonic Blaster - F-777.mp3">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="EnemyExplosionSound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="EnemyFireSound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="PlayerDamageSound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="PlayerExplosionSound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="PlayerFireSound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="font1.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="sheet.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="bg.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="sheet.xml">
+      <Filter>Resource Files\Textures</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
